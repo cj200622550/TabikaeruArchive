@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/selector_save"
+        android:title="@string/save"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_export_albums"
+        android:icon="@drawable/selector_export_albums"
+        android:title="@string/export_albums"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_get_all_achieve"
+        android:title="@string/get_all_achieve"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_get_all_collect"
+        android:title="@string/get_all_collect"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_get_all_specialty"
+        android:title="@string/get_all_specialty"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_set_all_item_stock"
+        android:title="@string/set_all_item_stock"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_change_frog_state"
+        android:title="@string/call_frog_back_home"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_set_leaflet_to_gift"
+        android:title="@string/set_leaflet_to_gift"
+        app:showAsAction="never"/>
+
+</menu>

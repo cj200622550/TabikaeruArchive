@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <TextView
+            style="@style/ColumnName"
+            android:text="@string/clover_stock" />
+
+        <EditText
+            android:id="@+id/clover_stock"
+            style="@style/ColumnValue"
+            android:inputType="numberDecimal"
+            android:maxLength="9"
+            tools:text="999999999" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/ColumnName"
+            android:text="@string/ticket_stock" />
+
+        <EditText
+            android:id="@+id/ticket_stock"
+            style="@style/ColumnValue"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            tools:text="999999999" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/ColumnName"
+            android:text="@string/last_game_time" />
+
+        <EditText
+            android:id="@+id/last_game_time"
+            style="@style/ColumnValue"
+            android:enabled="false"
+            android:inputType="datetime"
+            tools:text="2018-01-28 19:07:20.355" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/ColumnName"
+            android:text="@string/next_go_travel_time" />
+
+        <EditText
+            android:id="@+id/next_go_travel_time"
+            style="@style/ColumnValue"
+            android:enabled="false"
+            android:inputType="datetime"
+            tools:text="2018-01-28 19:07:20.355" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            style="@style/ColumnName"
+            android:text="@string/next_back_home_time" />
+
+        <EditText
+            android:id="@+id/next_back_home_time"
+            style="@style/ColumnValue"
+            android:enabled="false"
+            android:inputType="datetime"
+            tools:text="2018-01-28 19:07:20.355" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="3dp">
+
+        <TextView
+            style="@style/ColumnName"
+            android:text="@string/bgm_volume" />
+
+        <TextView
+            android:id="@+id/bgm_volume_v"
+            style="@style/ColumnValue"
+            android:gravity="start"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/default_volume" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp">
+
+        <SeekBar
+            android:id="@+id/bgm_volume"
+            style="@style/ColumnStyle"
+            android:layout_span="2"
+            android:max="100"
+            tools:progress="50" />
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="3dp">
+
+        <TextView
+            style="@style/ColumnName"
+            android:text="@string/se_volume" />
+
+        <TextView
+            android:id="@+id/se_volume_v"
+            style="@style/ColumnValue"
+            android:gravity="start"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="@string/default_volume" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp">
+
+        <SeekBar
+            android:id="@+id/se_volume"
+            style="@style/ColumnStyle"
+            android:layout_span="2"
+            android:max="100"
+            tools:progress="50" />
+
+    </TableRow>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:text="@string/se_zuozhe" />
+</TableLayout>

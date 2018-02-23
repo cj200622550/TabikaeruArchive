@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">蛙蛙助手</string>
+    <string name="clover_stock">三叶草数量</string>
+    <string name="ticket_stock">抽奖券数量</string>
+    <string name="last_game_time">最后游戏时间</string>
+    <string name="next_go_travel_time">下次旅行时间</string>
+    <string name="next_back_home_time">下次回家时间</string>
+    <string name="bgm_volume">背景音乐音量</string>
+    <string name="se_volume">游戏音效音量</string>
+    <string name="se_zuozhe">该软件免费共享 QQ：200622550</string>
+    <string name="save">保存修改</string>
+    <string name="operation_title">操作确认</string>
+    <string name="operation_warning">这会降低游戏的乐趣, 确定继续？</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="success_message">修改成功</string>
+    <string name="failure_message">修改失败</string>
+    <string name="number_format_error_message">请填写正确的数值</string>
+    <string name="archive_permission_denied">没有权限访问存档文件</string>
+    <string name="export_albums">导出明信片</string>
+    <string name="get_all_achieve">获取全部称号</string>
+    <string name="get_all_collect">收齐所有珍品</string>
+    <string name="get_all_specialty">收齐所有特产</string>
+    <string name="set_all_item_stock">加满所有物品</string>
+    <string name="call_frog_back_home">召唤蛙蛙回家</string>
+    <string name="call_frog_go_travel">送蛙蛙去旅行</string>
+    <string name="set_leaflet_to_gift">广告改成回礼</string>
+    <string name="no_albums_export">没有待导出的明信片</string>
+    <string name="export_albums_msg">成功导出 %1$d 张明信片\n到出目录：Pictures/CJ</string>
+    <string name="default_volume">0%</string>
+</resources>
