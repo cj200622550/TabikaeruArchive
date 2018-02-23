@@ -1,8 +1,5 @@
 旅行青蛙辅助
 ===
-
-[![GitHub release](https://img.shields.io/github/release/aa65535/TabikaeruArchiveModifier.svg)](https://github.com/aa65535/TabikaeruArchiveModifier/releases/latest)
-
 使用说明
 ---
 
